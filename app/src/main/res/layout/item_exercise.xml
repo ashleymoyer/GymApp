@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/item_exercise"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <!-- Exercise Name -->
+    <TextView
+        android:id="@+id/exerciseName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Exercise Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Number of Sets -->
+    <TextView
+        android:id="@+id/sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="3 Sets"
+        android:textSize="14sp" />
+
+    <!-- Number of Reps -->
+    <TextView
+        android:id="@+id/reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="10 Reps"
+        android:textSize="14sp" />
+
+</LinearLayout>
